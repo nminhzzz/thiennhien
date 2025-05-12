@@ -1,0 +1,137 @@
+.footer {
+    background-color: #304F47;
+
+    &__container {
+        padding: 0 60px 26px 103px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__left {
+        width: 50%;
+    }
+
+    &__title {
+        font-family: 'Lora', 'serif';
+        font-size: 39px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 27px;
+        margin-top: 30px;
+    }
+
+    &__describe {
+        font-family: 'Mulish', 'serif';
+        font-size: 20px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 20px;
+    }
+
+    &__contact {
+        &--phone {
+            font-family: 'Mulish', 'serif';
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+        }
+
+        &--email {
+            font-family: 'Mulish', 'serif';
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        &--address {
+            font-family: 'Mulish', 'serif';
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+            margin-bottom: 35px;
+        }
+    }
+
+    &__subscribe {
+        font-family: 'Mulish', 'serif';
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 28px;
+    }
+
+    &__input {
+        display: flex;
+        gap: 15px;
+
+        button {
+            background-color: #C7923E;
+            padding: 16px 15px;
+            border-radius: 12px;
+        }
+
+        margin-bottom: 30px;
+    }
+
+    &__input--left {
+        display: flex;
+        justify-content: center;
+        padding: 18px 131px 18px 16px;
+        border-radius: 12px;
+        background-color: #fff;
+        text-align: center;
+
+        input {
+            border: none;
+        }
+    }
+
+    &__right--container {
+        padding: 0 0 0 113px;
+    }
+
+    &__logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 123px;
+
+        &--social {
+            display: flex;
+            gap: 2px;
+        }
+    }
+
+    &__content {
+        margin-top: 23px;
+        font-family: 'Mulish', 'serif';
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-bottom: 82px;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    &__law {
+        font-family: 'Mulish', 'serif';
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        text-align: center;
+    }
+}

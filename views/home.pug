@@ -1,0 +1,174 @@
+extend layout 
+block main 
+    div(class="section1")
+        div(class="section1__container")
+            div(class="section1__title")
+                p Experience the beauty of Rwanda with us
+            div(class="section1__describe")
+                p Discover the Land of a Thousand Hills
+            div(class="section1__bar")
+                img(src="../assets/image/sec1-left.png", alt="")
+                img(src="../assets/image/sec1-right.png", alt="")
+            div(class="section1__search-box")
+                div(class="section1__search-box--content")
+                    div(class="section1__search")
+                        <input type="text" placeholder="Search activities or Destinations">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    div(class="section1__date")
+                        div(class="section1__date--first")
+                            p Guestst 
+                            div(class="item")
+                                p 2Adult 
+                                img(src="../assets/image/sec1-buttom.png", alt="")
+                        div(class="section1__date--second")
+                                p Date
+                                div(class="item")
+                                    p 12-13 April 2021  
+                                    img(src="../assets/image/sec1-buttom.png", alt="")
+                        div(class="section1__date--third")
+                                p Package
+                                div(class="item")
+                                    p All 
+                                    img(src="../assets/image/sec1-buttom.png", alt="")
+                    div(class="section1__button")
+                        button Book Now
+    div(class="section2")
+        div(class="section2__container")
+            div(class="section2__title--first") Choose your Package
+            div(class="section2__title--second") Select your Best Package for your Travel            
+    div(class="section3")
+        div(class="section3__container")
+            -
+                var pet=[
+                    {
+                        img:'../assets/image/sec3-1v4.png',
+                        title:'Akagera National Park',
+                        describe:'Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks.',
+                        button:'Learn More'
+
+                    },
+                    {
+                        img:'../assets/image/sec3-2v5.png',
+                        title:'Bisoke Hike',
+                        describe:'The Bisoke hike is a popular mountain trek in Rwanda, located in the Volcanoes National Park. It is one of the most challenging hikes in the park.',
+                        button:'Learn More'
+
+                    },
+                    {
+                        img:'../assets/image/sec3-3v6.png',
+                        title:'Lake Kivu trip',
+                        describe:'A trip to Lake Kivu can be a truly unique and memorable experience. ',
+                        button:'Learn More'
+
+                    },
+                    {
+                        img:'../assets/image/sec3-1v4.png',
+                        title:'Akagera National Park',
+                        describe:'Visitors to Akagera National Park can take part in a range of activities, including game drives, boat safaris, bird watching, and nature walks.',
+                        button:'Learn More'
+
+                    },
+                    {
+                        img:'../assets/image/sec3-2v5.png',
+                        title:'Bisoke Hike',
+                        describe:'The Bisoke hike is a popular mountain trek in Rwanda, located in the Volcanoes National Park. It is one of the most challenging hikes in the park.',
+                        button:'Learn More'
+
+                    },
+                    {
+                        img:'../assets/image/sec3-3v6.png',
+                        title:'Lake Kivu trip',
+                        describe:'A trip to Lake Kivu can be a truly unique and memorable experience. ',
+                        button:'Learn More'
+
+                    }
+                    
+
+                ]
+            div(class="section3__list")
+                each item in pet
+                    div(class="section3__item")
+                        img(src=item.img, alt="")
+                        p.section3__item--title1= item.title
+                        p.section3__item--title2= item.describe
+                        button= item.button
+    div(class="section4")
+        div(class="section4__container")
+            div(class="section4__title1") Popular Destinations
+            div(class="section4__title2") Select Our Best Popular Destinations
+    div(class="section5")
+        div(class="section5__bar")
+            img(src="../assets/image/sec5-left.png", alt="")
+            img(src="../assets/image/sec5-right.png", alt="")
+        div(class="section5__list")
+            -
+                var items = [
+                    {
+                        image:'../assets/image/sec5-1.jpg',
+                        title:'Kigali',
+                        describe:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.'
+                    },
+                    {
+                        image:'../assets/image/sec5-2.jpg',
+                        title:'Huye',
+                        describe:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.'
+                    },
+                    {
+                        image:'../assets/image/sec5-3.png',
+                        title:'Rubavu',
+                        describe:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.'
+                    },
+                    {
+                        image:'../assets/image/sec5-4.jpg',
+                        title:'Musanze',
+                        describe:'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Volutpat elit sed pretium, egestas sed sit.'
+                    }
+                ]
+            each item in items
+                div(class="section5__item")
+                    img(src=item.image, alt="")
+                    div(class="section5__item--content")
+                        h3=item.title
+                        p=item.describe
+    div(class="section6")
+        div(class="section6__container")
+            div(class="section6__title1") Why us?
+            div(class="section6__title2") Why Travel with Africa wizzy Safari
+    div(class="section7")
+        div(class="section7__container")
+            div(class="section7__list")
+                div(class="section7__item")
+                    img(src="../assets/image/sec7-car.png", alt="")
+                    p 100+ tours around Rwanda
+                div(class="section7__item")
+                    img(src="../assets/image/sec7-checkcircle.png", alt="")
+                    p 100% Trusted travel agency
+                div(class="section7__item")
+                    img(src="../assets/image/sec7-contact.png", alt="")
+                    p 10 years of travel experience
+                div(class="section7__item")
+                    img(src="../assets/image/sec7-like.png", alt="")
+                    p 90% of travelors are happy
+    div(class="section8")
+        div(class="section8__container")
+            div(class="section8__title1") Our Traveller Say
+            div(class="section8__title2") What our clients say about us
+    div(class="section9")
+        div(class="section9__container")
+            div(class="section9__list")
+                div(class="section9__item")
+                    img(src="../assets/image/sec9-avatar.jpg", alt="")
+                    h3 Emma Waston 
+                    p I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization.
+                div(class="section9__item")
+                    img(src="../assets/image/sec9-avatar.jpg", alt="")
+                    h3 Emma Waston 
+                    p I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization.
+                div(class="section9__item")
+                    img(src="../assets/image/sec9-avatar.jpg", alt="")
+                    h3 Emma Waston 
+                    p I recently went on a tour with XYZ Tourism Company and was extremely impressed with the level of professionalism and organization.
+            div(class="section9__bar")
+                button
+                button
+                button         

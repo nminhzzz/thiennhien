@@ -1,0 +1,102 @@
+.social {
+    background-color: #304F47;
+
+    &__container {
+        padding: 17px 100px 11px 100px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        gap: 29px;
+    }
+
+    &__contact {
+        display: flex;
+
+        i {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+            font-family: 'Podkova', serif;
+            font-weight: 400;
+            font-size: 12px;
+        }
+    }
+
+    &__mail {
+        display: flex;
+
+        i {
+            color: #fff;
+
+        }
+
+        p {
+            color: #fff;
+            font-family: 'Podkova', serif;
+            font-weight: 400;
+            font-size: 12px;
+            margin-left: 3px;
+        }
+    }
+
+    &__right {
+        display: flex;
+        gap: 8px;
+    }
+}
+
+.header {
+    &__container {
+        padding: 10px 67px 8px 40px;
+    }
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__menu {
+        list-style-type: none;
+        display: flex;
+        margin-left: 51px;
+        gap: 15px;
+
+        li {
+            font-family: 'Mulish', 'serif';
+            font-weight: 500;
+            font-size: 20px;
+        }
+    }
+
+    &__menu :first-child {
+        color: #304F47;
+        border-bottom: 4px solid #304F47;
+    }
+
+    &__button {
+
+        button {
+            background-color: #C7923E;
+            border-radius: 8px;
+            padding: 16px 34px;
+            font-family: 'Mulish', 'serif';
+            font-weight: 600;
+            font-size: 16px;
+            color: #fff;
+        }
+    }
+}
